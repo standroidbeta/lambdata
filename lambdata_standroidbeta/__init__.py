@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 
-lamdata - a collection of Data Science helper functions
+lambdata - a collection of Data Science helper functions
 """
 
 import pandas as pd
