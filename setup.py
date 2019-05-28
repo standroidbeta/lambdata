@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
         name="lambdata-standroidbeta",
-        version="0.0.6",
+        version="0.0.7",
         author="standroidbeta",
         description="A collection of Data Science Helper functions",
         long_description=LONG_DESCRIPTION,
