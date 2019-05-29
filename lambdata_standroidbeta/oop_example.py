@@ -3,28 +3,33 @@
 
 
 class InfoHeadShape:
-    """A class for outputting a dataframe's info, head and shape at once!"""
+    """A class for outputting a dataframe's info, head and shape at once!
+    You will need to first import pandas as pd and assign variables as seen here:
 
-    import pandas as pd
-    import numpy as np
+    f = pd.DataFrame()
+    example = f
+    example = InfoHeadShape(f)"""
 
     def __init__(self, df):
         self.df = df
 
-    def read_df(self, df_input):
+    def read_df(self):
         """User Input of csv file."""
-        df_input = input("Enter path to CSV file here:")
-        df = df_input
+        import pandas as pd
 
-    def df_info(self, df):
+        csv = input("Paste path to CSV here: ")
+        """paste path without ''. """
+        self.df = pd.read_csv(csv)
+
+    def df_info(self):
         """Show dataframe info."""
-        print(df.info())
+        print(self.df.info())
 
-    def df_head(self, df):
+    def df_head(self):
         """How dataframe head."""
-        print(df.head())
+        print(self.df.head())
 
-    def df_shape(self, df):
+    def df_shape(self):
         """Shows dataframe shape."""
-        print(df.shape)
+        print(self.df.shape)
         pass
