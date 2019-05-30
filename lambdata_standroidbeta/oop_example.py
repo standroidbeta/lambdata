@@ -2,16 +2,16 @@
 
 Example use:
 
-In: import oop_example
-In: from oop_example import CSVLoad
+In: import lambdata_standroidbeta
+In: from lambdata_standroidbeta import oop_example
+In: from lambdata_standroidbeta.oop_example import CSVLoad
 
-In: example = CSVLoad()
 In: example = CSVLoad.read_df
 In: example(CSVLoad)
 
 Out: Paste path to CSV here: >? /home/seek/Documents/GitHub/hp_df_clean.csv
 
-In: from oop_example import InfoShapeHead
+In: from lambdata_standroidbeta.oop_example import InfoShapeHead
 In: df_example = InfoHeadShape
 In: df_example.df_ish(CSVLoad)
 
