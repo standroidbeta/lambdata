@@ -10,6 +10,9 @@ twine = "*"
 numpy = "*"
 pandas = "*"
 twine = "*"
+bleach = "*"
+update = "*"
+pypi = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
