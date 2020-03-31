@@ -10,7 +10,8 @@ twine = "*"
 numpy = "*"
 pandas = "*"
 twine = "*"
-bleach = "*"
+[packages]
+bleach = ">=3.1.4"
 update = "*"
 pypi = "*"
 
